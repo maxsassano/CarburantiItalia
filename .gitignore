@@ -1,0 +1,22 @@
+# Build
+bin/
+obj/
+*.apk
+*.aab
+*.apk.bak
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# Keystore (MAI committare!)
+*.keystore
+*.jks
+
+# OS
+.DS_Store
+Thumbs.db
