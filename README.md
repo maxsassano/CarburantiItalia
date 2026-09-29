@@ -29,10 +29,10 @@ App Android per consultare in tempo reale i **prezzi dei carburanti** in Italia.
 ## 📸 Screenshot
 
 ![Home](Screen/home.png)
-![Risultati](Screen/risultati.png)
 ![Dettaglio](Screen/dettagli.png)
 ![Filtri](Screen/filtri.png)
-
+![Filtri](Screen/preferiti.png)
+![Risultati](Screen/mappa.png)
 ---
 
 ## 📥 Download
