@@ -3,7 +3,7 @@
 App Android per consultare in tempo reale i **prezzi dei carburanti** in Italia.
 
 [![Android](https://img.shields.io/badge/Android-7.0%2B-green)](https://www.android.com)
-[![Version](https://img.shields.io/badge/version-1.1-yellow)](https://github.com/maxsassano/CarburantiItalia/releases)
+[![Version](https://img.shields.io/badge/version-1.2-yellow)](https://github.com/maxsassano/CarburantiItalia/releases)
 [![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
 
 ---
@@ -17,6 +17,8 @@ App Android per consultare in tempo reale i **prezzi dei carburanti** in Italia.
 - 🏪 Filtro per **servizi** (Bancomat, Autolavaggio, Bar, Ricarica elettrica…)
 - 🔢 **Ordinamento**: prezzo ↑/↓, distanza, nome A-Z
 - ⭐ **Preferiti** salvati sul telefono con pagina dedicata
+- 📊 **Confronto con media regionale** ufficiale MIMIT (verde = sotto media, rosso = sopra)
+- 🛣️ **Media autostradale** per distributori in autostrada o tangenziale
 - 🏷️ **Logo e bandiera** dei distributori
 - 📍 **Indirizzo completo** di ogni stazione
 - 🕒 **Orari di apertura** + badge **APERTO / CHIUSO**
@@ -31,8 +33,9 @@ App Android per consultare in tempo reale i **prezzi dei carburanti** in Italia.
 ![Home](Screen/home.png)
 ![Dettaglio](Screen/dettagli.png)
 ![Filtri](Screen/filtri.png)
-![Filtri](Screen/preferiti.png)
-![Risultati](Screen/mappa.png)
+![Preferiti](Screen/preferiti.png)
+![Mappa](Screen/mappa.png)
+
 ---
 
 ## 📥 Download
@@ -74,7 +77,14 @@ Digita il nome di una stazione, di un gestore o una via nella barra di ricerca p
 - **Action bar**: Mappa, Naviga, Chiama, Email, Sito, Condividi
 - Orari di apertura settimanali
 - Servizi disponibili con icone
-- Tutti i prezzi (Self / Servito)
+- Tutti i prezzi (Self / Servito) con **confronto media regionale**
+
+**Confronto con media regionale**
+Sotto ogni prezzo vedi il prezzo medio della tua regione (dati ufficiali MIMIT, aggiornati ogni giorno):
+- ✅ **Verde** = prezzo **sotto la media** (conviene)
+- ⚠️ **Rosso** = prezzo **sopra la media** (meno conveniente)
+
+Per i distributori in **autostrada o tangenziale**, il confronto usa la **media autostradale** (in genere più alta).
 
 **Preferiti**
 Tocca la ⭐ su una scheda per aggiungerla ai preferiti. Tocca **⭐ Preferiti** nella toolbar in alto per aprire la pagina dedicata con tutte le stazioni salvate. In alternativa, apri **☰ Filtri → "Mostra solo preferiti"** per filtrare la lista corrente.
@@ -95,7 +105,37 @@ Tutti i prezzi provengono dall'**API pubblica del MIMIT** — Osservaprezzi Carb
 
 Gli indirizzi vengono completati con l'**anagrafica ufficiale degli impianti attivi** pubblicata dal MIMIT.
 
+Le **medie regionali** e **autostradali** provengono dai CSV ufficiali MIMIT aggiornati quotidianamente.
+
 L'app **non è affiliata** al MIMIT né a marchi di carburante.
+
+---
+
+## 📋 Changelog
+
+### v1.2 — 3 ottobre 2026
+- ✨ **Confronto con media regionale** ufficiale MIMIT (verde se sotto, rosso se sopra)
+- ✨ **Media autostradale** per distributori in autostrada o tangenziale
+- 🐛 Fix visualizzazione prezzi in lista
+- 🎨 Titolo pagina ottimizzato
+
+### v1.1 — 30 settembre 2026
+- ✨ Supporto **16 tipi di carburante** (HVOlution, Blue Diesel, Supreme, Hi-Q, ecc.)
+- ✨ **Ricerca testuale** live
+- ✨ **Filtro per servizi** (chip multipli)
+- ✨ **Ordinamento** per prezzo/distanza/nome
+- ✨ **Preferiti** con SQLite + pagina dedicata
+- 🎨 **UI rinnovata**: card moderne, badge, chip, icone FontAwesome
+- 🚀 **Performance**: rimosso freeze da 15-20 sec, lista virtualizzata
+- 🐛 **Bug fix**: loghi, orari, doppio tap, layout
+
+### v1.0 beta — 28 settembre 2026
+- ✨ Prima release pubblica
+- 🔍 Ricerca per località e GPS
+- ⛽ Filtri base
+- 💰 Ordinamento per prezzo
+- 🗺️ Google Maps
+- 🔔 Monitoraggio automatico con notifiche
 
 ---
 
@@ -119,9 +159,21 @@ Se l'app ti è utile, puoi offrirmi un caffè:
 
 [![PayPal](https://img.shields.io/badge/PayPal-Offrimi%20un%20caffè-0070BA?logo=paypal)](https://paypal.me/veruscatanese)
 
-
 Ogni contributo aiuta a mantenere il progetto attivo e senza pubblicità. Grazie! 🙏
+
+---
+
 ## 🙏 Crediti
 
 - **Dati**: Ministero delle Imprese e del Made in Italy — [Osservaprezzi Carburanti](https://carburanti.mise.gov.it)
 - **Icone**: [Font Awesome 7 Free](https://fontawesome.com)
+- **Geocoding**: [Nominatim](https://nominatim.openstreetmap.org) — © OpenStreetMap contributors
+
+---
+
+<p align="center">
+  <b>Carburanti Italia v1.2</b><br>
+  © 2026 Massimo Sassano<br>
+  Made with ❤️ in Italia
+</p>
+```
