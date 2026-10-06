@@ -1,6 +1,6 @@
 ---
 name: 💡 Suggerisci una funzionalità
-about: Proponi una nuova idea o un miglioramento per GMExtractions
+about: Proponi una nuova idea o un miglioramento per CarburantiItalia
 title: "[IDEA] <breve descrizione>"
 labels: enhancement
 assignees: ''
@@ -8,7 +8,7 @@ assignees: ''
 
 ## La tua proposta
 
-Descrivi in modo chiaro la funzionalità o il miglioramento che vorresti vedere in IlluminaGIS.
+Descrivi in modo chiaro la funzionalità o il miglioramento che vorresti vedere in CarburantiItalia.
 
 ## Problema che risolve
 
