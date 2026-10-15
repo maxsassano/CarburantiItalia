@@ -19,6 +19,7 @@ App Android per consultare in tempo reale i **prezzi dei carburanti** in Italia.
 - ⭐ **Preferiti** salvati sul telefono con pagina dedicata
 - 📊 **Confronto con media regionale** ufficiale MIMIT (verde = sotto media, rosso = sopra)
 - 🛣️ **Media autostradale** per distributori in autostrada o tangenziale
+- 💰 **Calcolo costo reale del pieno** (include il carburante per arrivare alla stazione)
 - 🏷️ **Logo e bandiera** dei distributori
 - 📍 **Indirizzo completo** di ogni stazione
 - 🕒 **Orari di apertura** + badge **APERTO / CHIUSO**
@@ -78,6 +79,7 @@ Digita il nome di una stazione, di un gestore o una via nella barra di ricerca p
 - Orari di apertura settimanali
 - Servizi disponibili con icone
 - Tutti i prezzi (Self / Servito) con **confronto media regionale**
+- **💰 Calcolo costo reale del pieno**
 
 **Confronto con media regionale**
 Sotto ogni prezzo vedi il prezzo medio della tua regione (dati ufficiali MIMIT, aggiornati ogni giorno):
@@ -85,6 +87,23 @@ Sotto ogni prezzo vedi il prezzo medio della tua regione (dati ufficiali MIMIT, 
 - ⚠️ **Rosso** = prezzo **sopra la media** (meno conveniente)
 
 Per i distributori in **autostrada o tangenziale**, il confronto usa la **media autostradale** (in genere più alta).
+
+**Calcolo costo reale del pieno**
+Nella sezione **💰 Costo reale del pieno** vedi quanto spenderesti **davvero** per fare il pieno in quella stazione, considerando anche il carburante necessario per arrivarci.
+
+Il calcolo usa i dati della tua auto:
+- **Capienza serbatoio** (litri)
+- **Consumo medio** (km/litro)
+- **Litri attuali** nel serbatoio
+
+Viene mostrato:
+- **Costo del pieno** (litri da comprare × prezzo)
+- **Costo del viaggio** (carburante per arrivare)
+- **Costo totale** (pieno + viaggio)
+
+Tocca **⚙ Modifica** per inserire i dati della tua auto. Sono salvati sul telefono e li ritrovi al prossimo utilizzo.
+
+Utile per capire se conviene davvero spostarsi di 10 km per risparmiare 2 centesimi al litro!
 
 **Preferiti**
 Tocca la ⭐ su una scheda per aggiungerla ai preferiti. Tocca **⭐ Preferiti** nella toolbar in alto per aprire la pagina dedicata con tutte le stazioni salvate. In alternativa, apri **☰ Filtri → "Mostra solo preferiti"** per filtrare la lista corrente.
@@ -116,6 +135,7 @@ L'app **non è affiliata** al MIMIT né a marchi di carburante.
 ### v1.2 — 3 ottobre 2026
 - ✨ **Confronto con media regionale** ufficiale MIMIT (verde se sotto, rosso se sopra)
 - ✨ **Media autostradale** per distributori in autostrada o tangenziale
+- ✨ **Calcolo costo reale del pieno** — include il carburante per arrivare alla stazione
 - 🐛 Fix visualizzazione prezzi in lista
 - 🎨 Titolo pagina ottimizzato
 
@@ -169,11 +189,3 @@ Ogni contributo aiuta a mantenere il progetto attivo e senza pubblicità. Grazie
 - **Icone**: [Font Awesome 7 Free](https://fontawesome.com)
 - **Geocoding**: [Nominatim](https://nominatim.openstreetmap.org) — © OpenStreetMap contributors
 
----
-
-<p align="center">
-  <b>Carburanti Italia v1.2</b><br>
-  © 2026 Massimo Sassano<br>
-  Made with ❤️ in Italia
-</p>
-```
