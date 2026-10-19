@@ -113,7 +113,10 @@ I preferiti sono salvati sul telefono e restano anche dopo la chiusura dell'app.
 **Monitoraggio**
 Attiva lo switch, imposta la **soglia prezzo**. L'app girerà in background e ti avviserà se trova un distributore sotto la soglia. Funziona anche ad app chiusa.
 
+
 > ⚠️ Il monitoraggio in background consuma batteria. Attivalo solo quando ti serve.
+
+"Questa applicazione è uno strumento indipendente e non è affiliata, associata, autorizzata, approvata o in alcun modo ufficialmente collegata al Ministero delle Imprese e del Made in Italy (MIMIT) o a qualsiasi entità governativa. I dati sui prezzi dei carburanti sono forniti pubblicamente dal MIMIT tramite l'API Osservaprezzi Carburanti."
 
 ---
 
